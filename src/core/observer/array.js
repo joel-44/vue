@@ -31,6 +31,7 @@ methodsToPatch.forEach(function (method) {
     switch (method) {
       case 'push':
       case 'unshift':
+      case 'concat':
         inserted = args
         break
       case 'splice':
